@@ -17,3 +17,6 @@ MIT
 - [x] core flow
 - [ ] config file support
 - [ ] docker image
+
+## Notes
+- works on Base RPCs, untested on public nodes with heavy rate limits
