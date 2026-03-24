@@ -12,3 +12,8 @@ pip install -r requirements.txt
 
 ## License
 MIT
+
+## Roadmap
+- [x] core flow
+- [ ] config file support
+- [ ] docker image
