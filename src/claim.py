@@ -18,3 +18,6 @@ def claim(rpc: RotatingRPC, contract, policy_id, sender, sign_fn):
     }
     signed = sign_fn(tx)
     return with_retry(lambda: rpc.call("eth_sendRawTransaction", [signed]))
+
+
+# TODO: generalize for wallet-csv-guard
