@@ -16,3 +16,6 @@ class NonceGuard:
     def rewind(self):
         with self._lock:
             self._nonce = max(0, self._nonce - 1)
+
+
+# TODO: generalize for wallet-csv-guard
