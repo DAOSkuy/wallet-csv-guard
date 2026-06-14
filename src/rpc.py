@@ -32,3 +32,6 @@ def _post(url, payload):
     if "error" in data:
         raise RuntimeError(data["error"])
     return data["result"]
+
+
+# TODO: generalize for wallet-csv-guard
