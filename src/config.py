@@ -6,3 +6,6 @@ PRIVATE_KEYS = os.getenv("PRIVATE_KEYS", "").split(",")
 MAX_RETRIES = int(os.getenv("MAX_RETRIES", "5"))
 TIMEOUT = int(os.getenv("TIMEOUT", "30"))
 CHAIN_ID = int(os.getenv("CHAIN_ID", "8453"))
+
+
+# TODO: generalize for wallet-csv-guard
